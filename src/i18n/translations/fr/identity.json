@@ -1,0 +1,13 @@
+{
+  "title": "Ton identité d'exploration",
+  "intro": "Ton exploration appartient à cette identité, pas à ce téléphone. Copie-la sur un second appareil et les deux cartes n'en font plus qu'une.",
+  "mine": "Sur cet appareil",
+  "copy": "Copier",
+  "copied": "Copié",
+  "adoptTitle": "Reprendre l'identité d'un autre appareil",
+  "adoptPlaceholder": "Colle ici l'identité de l'autre appareil",
+  "adopt": "Fusionner les deux cartes",
+  "adopting": "Récupération en cours...",
+  "warning": "La fusion se fait dans les deux sens : ce que tu as déjà exploré ici rejoint l'identité reprise, et rien n'est jamais perdu. Attention, qui détient cette chaîne peut lire les zones que tu as parcourues.",
+  "close": "Fermer"
+}

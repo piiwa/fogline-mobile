@@ -1,0 +1,13 @@
+{
+  "title": "Your exploration identity",
+  "intro": "Your exploration belongs to this identity, not to this handset. Copy it onto a second device and the two maps become one.",
+  "mine": "On this device",
+  "copy": "Copy",
+  "copied": "Copied",
+  "adoptTitle": "Take over another device's identity",
+  "adoptPlaceholder": "Paste the other device's identity here",
+  "adopt": "Merge both maps",
+  "adopting": "Fetching...",
+  "warning": "The merge runs both ways: what you already explored here joins the adopted identity, and nothing is ever lost. Careful, whoever holds this string can read the areas you have walked.",
+  "close": "Close"
+}

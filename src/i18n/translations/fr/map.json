@@ -1,0 +1,46 @@
+{
+  "hud": {
+    "explored": "Exploré",
+    "cells": "zones",
+    "alerts": "Alertes",
+    "demo": "Démo",
+    "recenter": "Recentrer",
+    "identity": "Identité"
+  },
+  "reveal": {
+    "toast": "Nouveau territoire découvert"
+  },
+  "banner": {
+    "reduced": "Mode réduit : la carte se dévoile uniquement app ouverte. Active l'arrière-plan pour explorer en marchant.",
+    "denied": "Localisation désactivée. Active-la pour que ta marche révèle la carte.",
+    "expoGo": "Mode réduit : dans Expo Go, la carte se dévoile uniquement app ouverte. L'arrière-plan demande un build de développement.",
+    "notificationsDenied": "Alertes indisponibles : les notifications sont refusées. Active-les dans les réglages.",
+    "alertsExpoGo": "Alertes activées. Elles ne peuvent pas être surveillées dans Expo Go, qui n'exécute rien en arrière-plan : il faut un build natif.",
+    "alertsNeedAlways": "Alertes activées. Pour les surveiller, l'autorisation de localisation « Toujours » est nécessaire."
+  },
+  "notifications": {
+    "foregroundTitle": "Fogline dévoile ta carte",
+    "foregroundBody": "La marche continue de révéler du territoire, même en arrière-plan.",
+    "nearbyTitle": "Un trésor est tout près",
+    "nearbyBody": "Tu es à quelques pas d'un point non collecté."
+  },
+  "poi": {
+    "close": "Fermer",
+    "collectHint": "Approche-toi physiquement pour le ramasser. La collecte n'est pas incluse dans ce use-case.",
+    "rarity": {
+      "common": "Commun",
+      "rare": "Rare",
+      "legendary": "Légendaire"
+    },
+    "kind": {
+      "wecard": "Carte à collectionner",
+      "chest": "Coffre"
+    }
+  },
+  "locating": {
+    "title": "On cherche où tu es",
+    "body": "Encore quelques secondes, le temps que le GPS accroche.",
+    "unavailableTitle": "Position introuvable",
+    "unavailableBody": "On ouvre quand même la carte. Elle se recalera dès que le signal revient."
+  }
+}

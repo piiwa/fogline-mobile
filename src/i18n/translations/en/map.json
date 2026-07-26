@@ -1,0 +1,46 @@
+{
+  "hud": {
+    "explored": "Explored",
+    "cells": "zones",
+    "alerts": "Alerts",
+    "demo": "Demo",
+    "recenter": "Recenter",
+    "identity": "Identity"
+  },
+  "reveal": {
+    "toast": "New territory discovered"
+  },
+  "banner": {
+    "reduced": "Reduced mode: the map only uncovers while the app is open. Enable background to explore as you walk.",
+    "denied": "Location is off. Turn it on so your walk reveals the map.",
+    "expoGo": "Reduced mode: in Expo Go the map only uncovers while the app is open. Background needs a development build.",
+    "notificationsDenied": "Alerts unavailable: notifications are denied. Enable them in Settings.",
+    "alertsExpoGo": "Alerts are on. They cannot be watched inside Expo Go, which runs nothing in the background: this needs a native build.",
+    "alertsNeedAlways": "Alerts are on. Watching them needs the Always location permission."
+  },
+  "notifications": {
+    "foregroundTitle": "Fogline is revealing your map",
+    "foregroundBody": "Walking keeps uncovering new territory, even in the background.",
+    "nearbyTitle": "A collectible is near",
+    "nearbyBody": "You're steps away from an uncollected spot."
+  },
+  "poi": {
+    "close": "Close",
+    "collectHint": "Walk up to it to collect. Collecting is out of scope for this use case.",
+    "rarity": {
+      "common": "Common",
+      "rare": "Rare",
+      "legendary": "Legendary"
+    },
+    "kind": {
+      "wecard": "Collectible card",
+      "chest": "Chest"
+    }
+  },
+  "locating": {
+    "title": "Finding you",
+    "body": "A few more seconds while GPS locks on.",
+    "unavailableTitle": "Position unavailable",
+    "unavailableBody": "Opening the map anyway. It will settle as soon as the signal returns."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "value": {
+    "eyebrow": "EXPLORATION",
+    "title": "Ta marche révèle la carte",
+    "subtitle": "Le monde commence sous le brouillard. Chaque pas dévoile le territoire que tu traverses, et il te reste acquis pour toujours.",
+    "points": {
+      "walk": "Seule la marche compte. Ni voiture, ni transports.",
+      "background": "Ça continue même app fermée, à faible consommation.",
+      "privacy": "On ne garde jamais ton trajet, seulement les zones explorées."
+    },
+    "cta": "Commencer à explorer"
+  },
+  "always": {
+    "eyebrow": "EXPLORATION EN ARRIÈRE-PLAN",
+    "title": "Explore sans y penser",
+    "body": "Autorise la localisation « Toujours » pour que Fogline continue de dévoiler ta carte pendant tes trajets, même quand l'app est fermée.",
+    "cta": "Activer l'arrière-plan",
+    "later": "Plus tard"
+  }
+}

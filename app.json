@@ -1,0 +1,78 @@
+{
+  "expo": {
+    "name": "Fogline",
+    "slug": "fogline",
+    "scheme": "fogline",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#EFF3FB",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.fogline.app",
+      "infoPlist": {
+        "UIBackgroundModes": ["location"],
+        "NSLocationWhenInUseUsageDescription": "Fogline uses your location while the app is open to reveal the map where you walk.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Allow background location so Fogline keeps revealing your map as you walk, even when the app is closed. Fogline never stores your route — only the coarse zones you have explored.",
+        "NSMotionUsageDescription": "Fogline reads your step counter to make sure only walking reveals the map — never driving, cycling or transit."
+      }
+    },
+    "android": {
+      "package": "com.fogline.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#EFF3FB"
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "ACTIVITY_RECOGNITION",
+        "FOREGROUND_SERVICE",
+        "FOREGROUND_SERVICE_LOCATION"
+      ]
+    },
+    "platforms": ["ios", "android"],
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-localization",
+      "expo-sqlite",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Fogline uses your location while the app is open to reveal the map where you walk.",
+          "locationAlwaysAndWhenInUsePermission": "Allow background location so Fogline keeps revealing your map as you walk, even when the app is closed. Fogline never stores your route — only the coarse zones you have explored.",
+          "isAndroidBackgroundLocationEnabled": true,
+          "isAndroidForegroundServiceEnabled": true
+        }
+      ],
+      [
+        "expo-sensors",
+        {
+          "motionPermission": "Fogline reads your step counter to make sure only walking reveals the map — never driving, cycling or transit."
+        }
+      ],
+      "expo-notifications"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "apiBaseUrl": "http://localhost:8250/api/v1",
+      "appEnv": "development",
+      "eas": {
+        "projectId": "70ed7251-8aa0-424d-b7c4-737421ea5734"
+      }
+    },
+    "owner": "piwa",
+    "updates": {
+      "url": "https://u.expo.dev/70ed7251-8aa0-424d-b7c4-737421ea5734"
+    }
+  }
+}

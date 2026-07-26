@@ -1,0 +1,20 @@
+{
+  "value": {
+    "eyebrow": "EXPLORATION",
+    "title": "Your walk reveals the map",
+    "subtitle": "The world starts under fog. Every step uncovers the ground you cross, and it stays yours for good.",
+    "points": {
+      "walk": "Only walking counts. Never driving or transit.",
+      "background": "It keeps going with the app closed, on low power.",
+      "privacy": "We never keep your route, only the zones you explored."
+    },
+    "cta": "Start exploring"
+  },
+  "always": {
+    "eyebrow": "BACKGROUND EXPLORATION",
+    "title": "Explore without thinking about it",
+    "body": "Allow \"Always\" location so Fogline keeps uncovering your map on your walks, even when the app is closed.",
+    "cta": "Enable background",
+    "later": "Not now"
+  }
+}

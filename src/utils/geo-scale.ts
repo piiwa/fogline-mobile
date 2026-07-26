@@ -1,0 +1,23 @@
+/**
+ * Geodesic distance helper — pure math, RN-safe (haversine derivation ported
+ * from arpent's `geo-scale.utils.ts`).
+ */
+const EARTH_RADIUS_M = 6371008.8;
+
+/**
+ * Great-circle distance in meters between two WGS84 points. Used to build the
+ * `metersSinceLast` motion context and to pick the nearest POIs for proximity
+ * geofencing.
+ */
+export function haversineMeters(
+  a: { lat: number; lng: number },
+  b: { lat: number; lng: number },
+): number {
+  const toRad = (d: number): number => (d * Math.PI) / 180;
+  const dLat = toRad(b.lat - a.lat);
+  const dLng = toRad(b.lng - a.lng);
+  const lat1 = toRad(a.lat);
+  const lat2 = toRad(b.lat);
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(lat1) * Math.cos(lat2) * Math.sin(dLng / 2) ** 2;
+  return 2 * EARTH_RADIUS_M * Math.asin(Math.min(1, Math.sqrt(h)));
+}
